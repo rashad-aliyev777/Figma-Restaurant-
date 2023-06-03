@@ -1,0 +1,226 @@
+@import url(./reset.css);
+
+:root {
+    --body-reng: #1b1111;
+    --ag-reng: #fff;
+    --rengi-tutmamisam: #210E09;
+    --qriven-reng: #D5621D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #200122, #6f0000); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* header navbar-hissesi start */
+    .navbar-hissesi {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px  0 55px;
+    }
+    .nav-sekil img {
+        padding-top: 4px;
+    }
+    .nav-linkler {
+        padding-top: 9px;
+    }
+
+    .nav-linkler a {
+        padding: 14px;
+        font-weight: 400;
+        font-size: 20px;
+        color: var(--ag-reng);
+    }
+
+    .nav-button button {
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--ag-reng);
+        background-color: #6f0000;
+        border-radius: 15px;
+        padding: 15px;
+        cursor: pointer;
+    }
+/* header navbar-hissesi end */
+
+/* section sekil-reklamlar start */
+    .underground-sekil {
+        position: absolute;
+        padding-left: 52px;
+        padding-top: 30px;
+    }
+    .underground-sekil img {
+        width: 80%;
+    }
+
+    .underground-yazi {
+        position: absolute;
+        height: 70vh;
+        padding-top: 250px;
+        padding-left: 90px;
+        
+    }
+    .underground-yazi button {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px 20px 7px;
+        gap: 10px;
+        letter-spacing: 5px;
+        font-family: 'Gotham Pro';
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--rengi-tutmamisam);
+    }
+    .underground-yazi h3 {
+        font-weight: 400;
+        font-size: 40px;
+        color: var(--ag-reng);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding-top: 23px;
+        line-height: 50px;
+    }
+
+    .sekil-reklamlar {
+        height: 80vh;
+    }
+
+    .sekil-reklamlar-sag {
+        position: absolute;
+        width: 100%;
+        text-align: end;
+        padding-right: 312px;
+        display: grid;
+        height: 160px;
+        padding-top: 35px;
+    }
+    
+    .reklam-sol {
+        display: inline;
+        padding-top: 10px;
+    }
+
+    .reklam-sag {
+        display: inline;
+    }
+    .yazilar span {
+        color: var(--ag-reng);
+        letter-spacing: 3px;
+        padding: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+        padding-right: 40px;
+        padding-bottom: 15px;
+        font-size: 16px;
+        transition: 0.4s ease-out;
+    }
+    .yazilar span:hover {
+        color: rgb(131, 69, 201);
+    }
+/* section sekil-reklamlar end */
+
+
+
+/* underground media start */
+
+@media(max-width:1320px) {
+    .sekil-reklamlar-sag {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+@media(max-width:996px) {
+    .sekil-reklamlar-sag {
+        display: grid;
+    }
+}
+
+
+
+
+/* udnerground media end */
+
+/* section metbex-menyular start */
+
+    .metbex {
+        height: 100vh;
+    }
+
+    .top-manhattan-metbex {
+        text-align: center;
+    }
+    .top-manhattan-metbex button{
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 21px;
+        text-transform: uppercase;
+        background-color: var(--ag-reng);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .top-manhattan-metbex h4 {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 60px;
+        color: var(--ag-reng);
+        padding-top: 30px;
+        text-transform: uppercase;
+    }
+    .menyu-sol {
+        display: flex;
+    }
+   .menyular {
+    display: flex;
+   }
+    .amet-donec {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menyular {
+        display: flex;
+        height: 20vh;
+        /* padding-left: 100px; */
+        padding-top: 80px;
+    }
+   .ikili-div {
+    display: grid;
+    padding-left: 25px;
+   }
+
+   .amet-donec h4 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--ag-reng);
+    letter-spacing: 3px;
+   }
+
+   .qriven h5 { 
+    color: var(--qriven-reng);
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 0;
+   }
+
+   .qriv-yazi h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--ag-reng);
+    line-height: 21px;
+    letter-spacing: 1px;
+   }
+
+   .menyulari-yan-yana-div {
+    display: flex;
+    justify-content: space-around;
+   }
+/* section metbex-menyular end */

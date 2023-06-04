@@ -223,4 +223,33 @@ body {
     display: flex;
     justify-content: space-around;
    }
+
+   .butun-menyu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+   }
+   .butun-menyu button {
+    padding: 17px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    background-color: var(--qriven-reng);
+    color: var(--ag-reng);
+    cursor: pointer;
+   }
 /* section metbex-menyular end */
+
+
+/* banket-turist hissesi start */
+
+.banketler-turistler {
+    
+}
+
+.umumi-div {
+    /* display: flex; */
+}
+
+
+/* banket-turist hissesi end */
